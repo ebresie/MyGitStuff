@@ -11,6 +11,10 @@ public class NumberWizards : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
+        // set initial min/max value and initial guess
+        min = 1;
+        max = 1000;
+        guess = 500;
 
         Debug.Log("Welcome to Number Wizards");
         Debug.Log("=========================");
@@ -36,19 +40,22 @@ public class NumberWizards : MonoBehaviour {
             // number is higher than guess so set the lower/min value to the guess
             Debug.Log("Up arrow pressed");
             min = guess;
+            guess = (max + min) / 2;
             prompt();
         } else if (Input.GetKeyDown (KeyCode.DownArrow)) {
             // number is lower than guess so set the upper/max value to the guess
             Debug.Log("Down arrow pressed");
             max = guess;
+            guess = (max + min) / 2;
             prompt();
         }
         else if (Input.GetKeyDown(KeyCode.Return))  // Enter / Return Key
         {
+            // number selected is correct
             Debug.Log("Enter pressed");
-            min = 1;
-            max = 1000;
-            guess = 500;
+            Debug.Log("Your number was " + guess);
+            Debug.Log("Your number was " + guess);
+            Start();
         }
     }
 }

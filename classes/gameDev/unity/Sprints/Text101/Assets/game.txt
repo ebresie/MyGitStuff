@@ -1,0 +1,28 @@
+Game Design - Text Adventure
+
+What is game theme?
+(1) Adventurer / Archiologist
+(2) Steam Punk / Air ships
+
+What is an image that sums up your game theme?
+(1) Indiana Jones
+(2) Airships (see Laputa)
+
+Who is the player?
+(1) Archiologist
+(2) Airship Pilot 
+
+What is the goal?
+(1) Search for and find artifacts
+(2) Pilot looking for things in sky locations
+
+These are the adventures of Ace Burrows, seeker of artifacts of great value and significance.  Always escaping from extreme dangers and obstacles.
+
+States
+start => At the city musuem in the artifact staging area.
+objects => 
+(1) vase
+(2) coffin
+(3) chest
+
+
