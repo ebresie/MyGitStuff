@@ -11,6 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
   m_Name: Desk
   m_EditorClassIdentifier: 
-  storyText: At the desk
+  storyText: 'At the desk
+
+
+    1 - Move away from the desk'
   nextStates:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 68bf062afcb978e4fabd5f0bfdfbbbb2, type: 2}

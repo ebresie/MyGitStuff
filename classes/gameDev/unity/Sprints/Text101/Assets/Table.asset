@@ -11,5 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
   m_Name: Table
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  storyText: 'The table is empty
+
+
+    1 - Move away from the table'
+  nextStates:
+  - {fileID: 11400000, guid: e4a3332491b8c8c43a94e078fadbfd5d, type: 2}

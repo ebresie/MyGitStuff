@@ -11,5 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
   m_Name: Key
   m_EditorClassIdentifier: 
-  storyText: You have grabbed the key
-  nextStates: []
+  storyText: 'You have grabbed the key
+
+
+    1 - Return to the cabinet'
+  nextStates:
+  - {fileID: 11400000, guid: ff557a5ce19c1c240acd4b1e88b8ab96, type: 2}

@@ -11,6 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
   m_Name: Doorway
   m_EditorClassIdentifier: 
-  storyText: The door appears to be locked.
+  storyText: 'The door appears to be locked.
+
+
+    1 - Move away from the door.'
   nextStates:
-  - {fileID: 11400000, guid: c936a854d99490848b54dedd81ec5ced, type: 2}
+  - {fileID: 11400000, guid: 68bf062afcb978e4fabd5f0bfdfbbbb2, type: 2}
