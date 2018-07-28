@@ -18,11 +18,15 @@ MonoBehaviour:
     At the moment, Ace is at city musuem in the artifact staging area.
 
 
-    There is a table nearby.
+    1 - There is an opening to another room ahead.
 
-    There is a doorway to the right.
+    2 - There is an second opening to another room to the left.
 
-    There are two other rooms.'
+    3 - There is a closed doorway to the right.
+
+    4 - There is a table nearby.
+
+'
   nextStates:
   - {fileID: 11400000, guid: 68bf062afcb978e4fabd5f0bfdfbbbb2, type: 2}
   - {fileID: 11400000, guid: 75dece8a0974cc943a6d9f1e84e168a8, type: 2}

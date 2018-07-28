@@ -11,4 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
   m_Name: Room2
   m_EditorClassIdentifier: 
-  storyText: I am in room 2.
+  storyText: 'This is an empty room
+
+
+    1 - Return back to the starting room'
+  nextStates:
+  - {fileID: 11400000, guid: e4a3332491b8c8c43a94e078fadbfd5d, type: 2}
