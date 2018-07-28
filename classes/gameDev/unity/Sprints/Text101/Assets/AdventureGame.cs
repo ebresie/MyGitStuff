@@ -6,14 +6,18 @@ using UnityEngine.UI;
 public class AdventureGame : MonoBehaviour {
 
     [SerializeField] Text textComponent;
+    [SerializeField] State startingState;
+
+    State state;
 
 	// Use this for initialization
 	void Start () {
-        textComponent.text = ("These are the adventures of Ace Burrows, seeker of artifacts of great value and significance.  Always escaping from extreme dangers and obstacles");
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        state = startingState;
+        textComponent.text = state.GetStateStory();
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
