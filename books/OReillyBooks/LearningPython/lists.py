@@ -10,3 +10,5 @@ print(L[:-1])
 print(L + [4, 5, 6])
 
 print(L * 2)
+L.append('NI')
+print(L)
