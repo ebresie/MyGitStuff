@@ -28,3 +28,8 @@ print('sort=',N)
 print('before reverse=',N)
 N.reverse()
 print('reverse=',N)
+
+# Matrix lists
+M=[[1,2,3],[4,5,6],[7,8,9]]
+print(M)
+print(M[1])
