@@ -442,3 +442,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/classes/gameDev/unreal/MyProject/Intermediate
+/classes/gameDev/unreal/MyProject

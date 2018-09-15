@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee64be306fca3640adc1a7d1430c346, type: 3}
+  m_Name: Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'Game is over
+
+
+    What do you want to do now?
+
+
+    1 - Start New Game
+
+    2 - Quit'
+  nextStates:
+  - {fileID: 11400000, guid: e4a3332491b8c8c43a94e078fadbfd5d, type: 2}
+  - {fileID: 11400000, guid: 230cf650a741bc047be780237df0f631, type: 2}
