@@ -328,7 +328,7 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
 
-
+# Unity.gitignore
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
