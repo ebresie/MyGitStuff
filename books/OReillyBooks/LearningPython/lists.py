@@ -29,7 +29,7 @@ print('before reverse=',N)
 N.reverse()
 print('reverse=',N)
 
-# Matrix lists
-M=[[1,2,3],[4,5,6],[7,8,9]]
-print(M)
-print(M[1])
+# 0..3 (list() required in 3.X) [0, 1, 2, 3]
+print(list(range(4)))
+ # −6 to +6 by 2 (need list() in 3.X)
+print(list(range(-6, 7, 2)))
