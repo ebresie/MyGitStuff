@@ -13,4 +13,6 @@ print(doubles)
 # Multiple values, "if" filters [[0, 0], [1, 1], [4, 8], [9, 27]
 print([[x ** 2, x ** 3] for x in range(4)])
 #[[2, 1, 4], [4, 2, 8], [6, 3, 12]]
-print( [ [x, x / 2, x * 2] for x in range( -6，7，2 ) if x >0])
+#res= [[x， x / 2， x * 2] for x in range( -6，7，2 ) if x > 0 ]
+res=[[x ** 2, x/2, x*2] for x in list(range(-6,7,2))]
+print( res )
