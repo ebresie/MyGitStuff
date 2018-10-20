@@ -444,3 +444,7 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 /classes/gameDev/unreal/MyProject/Intermediate
 /classes/gameDev/unreal/MyProject
+*.zip
+classes/blender/CompleteBlenderCreatorCourse/__MACOSX/._Section 1 Assets
+classes/blender/CompleteBlenderCreatorCourse/__MACOSX/Section 1 Assets/._LayoutMess.blend
+classes/blender/CompleteBlenderCreatorCourse/Section 1 Assets/LayoutMess.blend
