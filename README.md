@@ -6,28 +6,27 @@ Presently includes:
 - A basic Hello World project (presently a Java version).  I may expand this project to have other versions of "hello world" type programs as well.
 
 - A classes folder which will contain materials developed for or associated with a given class of some type.
-Present classes include:
 
- - NodeJS class on Udemy
- - Web Development class on Udemy
- - Graphics
-	 -  Blender
- - Game Development
-	 - Unity
-	 - Unreal
- - Data Science
-	 - Matlab
- - Languages
-	 - Python
+- Present classes include:
+	 - NodeJS class on Udemy
+	 - Web Development class on Udemy
+	 - Graphics
+		 -  Blender
+	 - Game Development
+		 - Unity
+		 - Unreal
+	 - Data Science
+		 - Matlab
+	 - Languages
+		 - Python
 	 - 
  - A books folder contains materials developed for or associated a given book of some type.
-
-Present books include:
--- Compiler Tutorial
--- Head First Books
---- Head First C#
--- O'Reilly books
---- Learning Python
+	 - Present books include:
+		 - Compiler Tutorial
+		 - Head First Books
+		 - Head First C#
+		 - O'Reilly books
+			 - Learning Python
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTAwNTYwN119
+eyJoaXN0b3J5IjpbMTI2MjM4MTI1NF19
 -->
