@@ -8,16 +8,17 @@ Presently includes:
 - A classes folder which will contain materials developed for or associated with a given class of some type.  
 
 Present classes include:
--- NodeJS class on Udemy
--- Web Development class on Udemy
--- Blender
--- Game Development
---- Unity
---- Unreal
--- Matlab
--- Python
 
-- A books folder contains materials developed for or associated a given book of some type.
+ - NodeJS class on Udemy
+ - Web Development class on Udemy
+ - Graphics
+	 -  Blender
+ - Game Development
+   --- Unity
+   --- Unreal
+   -- Matlab
+   -- Python
+ - A books folder contains materials developed for or associated a given book of some type.
 
 Present books include:
 -- Compiler Tutorial
@@ -25,3 +26,6 @@ Present books include:
 --- Head First C#
 -- O'Reilly books
 --- Learning Python
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjcxNzk0MTQzXX0=
+-->
